@@ -86,7 +86,7 @@ const AboutMe = () => {
           <h1 className="thqHeading1 h1">
             <span data-type="span">What I Bring</span>
           </h1>
-          <span className="text15">Design Thinking &amp; Workshops</span>
+          <span className="text15">ð­Â  Design Thinking &amp; Workshops</span>
           <span className="text16">
             Good design is an intimate collaboration between designers, engineers and business. By
             planning and facilitating workshops, I ensure people of different disciples, roles, and
@@ -96,7 +96,7 @@ const AboutMe = () => {
             I have supported clients from different industries in understanding their usersâ needs
             and help align the same with the business goals through workshopsÂ 
           </span>
-          <span className="text18">Research &amp; Testing</span>
+          <span className="text18">ð¬Â  Research &amp; Testing</span>
           <span className="text19">
             Our team has strong belief in user research that has driven to incorporate a user
             centered design process into our products and solutions. By communicating and testing
@@ -107,7 +107,7 @@ const AboutMe = () => {
             I have conducted qualitative and quantitative research with users all over the globe and
             have learned to set up studies and translate results and insights into actions.
           </span>
-          <span className="text21">Design &amp; Prototype</span>
+          <span className="text21">ð¨Â  Design &amp; Prototype</span>
           <span className="text22">
             I really enjoy being involved in all stages of the design process, from talking to
             users, designing low-fidelity wireframes to high fidelity prototypes and interactions.
@@ -171,7 +171,8 @@ const AboutMe = () => {
           <div className="container09">
             <h1 className="thqHeading1 text38">
               <span data-type="span" className="text39">
-                Let&apos;s connect. Feel free to drop a hello anytime.Â 
+                Let&apos;s connect. Feel free to drop a<span className="text40">hello</span>
+                anytime.Â 
               </span>
             </h1>
           </div>
@@ -548,6 +549,9 @@ const AboutMe = () => {
           }
           .text39 {
             font-weight: 800;
+          }
+          .text40 {
+            color: rgb(9, 154, 164);
           }
           .container10 {
             width: 100%;

@@ -539,18 +539,18 @@ const Appraise = () => {
         <div id="cs2-weblaunch" className="container26">
           <h1 className="thqHeading1 h106">Launching the Website</h1>
           <span className="text090">
-            The entire project was designed and developed in over a period of
-            <span className="text091">16 months.</span>
+            The entire project was designed and developed in over a period ofÂ 
+            <span data-type="span">16 months.</span>
             We worked in Agile with 4 week sprints.
-            <br />
+            <br data-type="br" />
             Once the wireframes for all the flows were finalised, I started on the visual design of
             the application. We already had a brand guideline in place, so I followed the design
             direction mentioned in the guideline.
-            <br />
+            <br data-type="br" />
             I collaborated with senior visual designers for review and refining the application.
-            <br />
+            <br data-type="br" />
             Once we developed the MVP, we ran a closed beta test with 100 users. We made minor
-            iteratiosn based on the user inputs and submitted the app for security testing.
+            iterations based on the user inputs and submitted the app for security testing.
           </span>
           <span className="text092">
             As this is company wide initiative, I worked with HR managers, corporate communications
@@ -564,8 +564,11 @@ const Appraise = () => {
           </span>
           <span className="text095">
             The response was mostly positive and people loved the app performance and the new
-            interface.Â We had ~<span className="text096">100k logins</span>
-            in the first week but as expected the traffic gradually reduced in the weeks after
+            interface.Â We had ~
+            <span data-type="span" className="text096">
+              100k logins
+            </span>
+            Â in the first week but as expected the traffic gradually reduced in the weeks after
             launch.
           </span>
         </div>
@@ -582,17 +585,22 @@ const Appraise = () => {
           </span>
           <span className="text099">
             <span data-type="span">
-              <span className="text101">
+              <span data-type="span" className="text101">
                 Like web, we worked on sprints and after successfully clearing the usability and
-                security testing,
-                <span className="text102">we launched the mobile app on April 30, 2019.</span>
+                security testing,Â 
+                <span data-type="span" className="text102">
+                  we launched the mobile app on April 30, 2019.
+                </span>
               </span>
             </span>
           </span>
           <span className="text103">
             The response was mostly positive and people loved the app performance and the new
-            interface.Â We had ~<span className="text104">100k logins</span>
-            in the first week but as expected the traffic gradually reduced in the weeks after
+            interface.Â We had ~
+            <span data-type="span" className="text104">
+              100k logins
+            </span>
+            Â in the first week but as expected the traffic gradually reduced in the weeks after
             launch.
           </span>
           <span className="text105">
@@ -1472,9 +1480,6 @@ const Appraise = () => {
           }
           .text090 {
             margin-top: 16px;
-          }
-          .text091 {
-            font-weight: bold;
           }
           .text092 {
             margin-top: 16px;
