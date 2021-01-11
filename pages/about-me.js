@@ -160,8 +160,10 @@ const AboutMe = () => {
           <span className="text36">
             â¢ I collaborated with a cross-functional team in designing andÂ  developing a user
             centered MVP. Adoption of the platform improved byÂ 
-            <span className="text37">200%</span>
-            and lot of ideas ended up as cost-saving initiatives for the company.
+            <span data-type="span" className="text37">
+              200%
+            </span>
+            Â and lot of ideas ended up as cost-saving initiatives for the company.
           </span>
         </div>
         <div className="container07"></div>
@@ -490,7 +492,7 @@ const AboutMe = () => {
           .text32 {
             color: #52606D;
             font-size: 16px;
-            margin-top: 24px;
+            margin-top: 32px;
             font-weight: 600;
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -552,7 +554,6 @@ const AboutMe = () => {
             display: flex;
             flex-wrap: nowrap;
             align-self: stretch;
-            margin-top: 8px;
             align-items: stretch;
             justify-self: stretch;
             flex-direction: row;
@@ -563,8 +564,8 @@ const AboutMe = () => {
           }
           .icon {
             fill: #1F2933;
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
             margin-top: 16px;
             margin-right: 16px;
             margin-bottom: 16px;
@@ -574,8 +575,8 @@ const AboutMe = () => {
           }
           .icon1 {
             fill: #1F2933;
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
             margin: 16px;
           }
           .link5 {
@@ -583,8 +584,8 @@ const AboutMe = () => {
           }
           .icon2 {
             fill: #1F2933;
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
             margin: 16px;
           }
           .link6 {
@@ -592,8 +593,8 @@ const AboutMe = () => {
           }
           .icon3 {
             fill: #1F2933;
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
             margin: 16px;
           }
           .link7 {
@@ -601,8 +602,8 @@ const AboutMe = () => {
           }
           .icon4 {
             fill: #1F2933;
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
             margin: 16px;
           }
           @media (max-width: 767px) {
