@@ -115,9 +115,9 @@ const Appraise = () => {
           <div className="container09">
             <h1 className="thqHeading1 text013">ðï¸Â  Please Note</h1>
             <span className="text014">
-              Due to NDA Obligations, I&apos;m unable to share actual data, content and the mockups.
-              I&apos;ve recreated mockups without any branding. All data and content displayed as
-              part of mockups are alternate versions
+              Due to NDA obligations, I&apos;m unable to share actual product mockups, research data
+              and usability testing insights. I have captured all the process we did in this project
+              but I have recreated alternate mockups for the purpose of this case study.
             </span>
           </div>
         </div>
@@ -209,10 +209,17 @@ const Appraise = () => {
           <div className="container17">
             <span className="text027">
               We have 2 types of evaluations.
-              <br />-<span className="text028"> Annual evaluation</span>
+              <br data-type="br" />-
+              <span data-type="span" className="text028">
+                {' '}
+                Annual evaluationÂ 
+              </span>
               (Conducted at the end of each year)
-              <br />-<span className="text029">Project Closure</span>( Conducted if a employee
-              leaves/completes a project)
+              <br data-type="br" />-
+              <span data-type="span" className="text029">
+                Project ClosureÂ 
+              </span>
+              ( Conducted if a employee leaves/completes a project)
             </span>
             <span className="text030">
               The Evaluator sets objectives for the Appraisee. Before the evaluation deadline, the
@@ -882,6 +889,7 @@ const Appraise = () => {
             flex-wrap: nowrap;
             margin-top: 32px;
             align-items: center;
+            border-radius: 8px;
             flex-direction: row;
             justify-content: center;
             background-color: #F5F7FA;
@@ -892,6 +900,7 @@ const Appraise = () => {
             flex-wrap: nowrap;
             margin-top: 24px;
             align-items: flex-start;
+            margin-bottom: 24px;
             flex-direction: column;
             justify-content: flex-start;
           }
@@ -1667,7 +1676,7 @@ const Appraise = () => {
               width: 90%;
             }
             .container05 {
-              height: 280px;
+              height: 340px;
             }
             .div03 {
               grid-template-columns: 1fr;
@@ -1785,7 +1794,7 @@ const Appraise = () => {
             }
             .container05 {
               width: 80%;
-              height: 560px;
+              height: 420px;
               align-items: start;
               justify-items: stretch;
               justify-content: space-between;
@@ -1796,6 +1805,7 @@ const Appraise = () => {
             }
             .container08 {
               width: 90%;
+              margin-top: 24px;
             }
             .container09 {
               width: 90%;
