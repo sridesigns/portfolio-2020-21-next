@@ -133,7 +133,7 @@ const Appraise = () => {
               <br data-type="br" />
               60-70%
             </span>
-            of users used the application once a year, and the rest of the users use it anywhere
+            Â of users used the application once a year, and the rest of the users use it anywhere
             from 2-4 times a year depending on their project works.
             <br data-type="br" />
             So why redesign?
@@ -154,7 +154,7 @@ const Appraise = () => {
         </div>
         <div id="cs2-deadline" className="container10">
           <div className="container11">
-            <h1 className="thqHeading1 text021">âÂ  Timeline:</h1>
+            <h1 className="thqHeading1 text021">âÂ  Â Timeline:</h1>
             <span className="text022">~ 12 months</span>
           </div>
         </div>
@@ -219,7 +219,7 @@ const Appraise = () => {
               <span data-type="span" className="text029">
                 Project ClosureÂ 
               </span>
-              ( Conducted if a employee leaves/completes a project)
+              (Conducted if a employee leaves/completes a project)
             </span>
             <span className="text030">
               The Evaluator sets objectives for the Appraisee. Before the evaluation deadline, the
@@ -291,29 +291,34 @@ const Appraise = () => {
             which made collaboration, reviews much quicker and easier.
           </span>
         </div>
+        <div id="cs2-userflow-pic" className="container19">
+          <img src="/playground_assets/userjourney-1-1200h.png" className="thqImage image02" />
+          <img src="/playground_assets/userjourney-2-1200h.png" className="thqImage image03" />
+          <span className="text045">Snippet of the App&apos;s User journeys</span>
+        </div>
         <div id="cs2-understand-users" className="div04">
-          <h1 className="thqHeading1 text045">
-            <span data-type="span" className="text046">
+          <h1 className="thqHeading1 text046">
+            <span data-type="span" className="text047">
               Understanding the User
             </span>
           </h1>
-          <span className="text047">
+          <span className="text048">
             I synthesized all the documentations and reports created by the previous design team and
             prepared a set of questionnaire to validate with different user groups
           </span>
-          <span className="text048">
+          <span className="text049">
             I interviewedÂ 
-            <span data-type="span" className="text049">
+            <span data-type="span" className="text050">
               12 usersÂ 
             </span>
             and conductedÂ 
-            <span data-type="span" className="text050">
+            <span data-type="span" className="text051">
               3 focus group sessionsÂ 
             </span>
             to validate my questionnaire and the findings of the teamÂ 
             <br data-type="br" />
           </span>
-          <span className="text051">
+          <span className="text052">
             I found most of their findings to be accurate and only minor changes were required to be
             altered. I ran a playback session for the stakeholders and the entire project team
             wherein I walked them through the user research findings. We mapped out the MVP
@@ -322,27 +327,27 @@ const Appraise = () => {
           </span>
         </div>
         <div id="cs2-user-journeys" className="div05">
-          <h1 className="thqHeading1 text052">
-            <span data-type="span" className="text053">
+          <h1 className="thqHeading1 text053">
+            <span data-type="span" className="text054">
               User Journeys
             </span>
           </h1>
-          <span className="text054">
+          <span className="text055">
             The personas that were created already were pretty solid and based on my user research I
             made some minor tweaks. We identifiedÂ 
-            <span data-type="span" className="text055">
+            <span data-type="span" className="text056">
               8 personasÂ 
             </span>
             that covered majority of the user groups in the organisation.
           </span>
-          <span className="text056">
+          <span className="text057">
             I collaborated with the Business analysts to construct the user journeys. We dissected
             the features and functionalities, collated key requirement ask against the features and
             plotted a journey for all the defined personas.
           </span>
-          <span className="text057">
+          <span className="text058">
             The belowÂ 
-            <span data-type="span" className="text058">
+            <span data-type="span" className="text059">
               3 critical user journeysÂ 
             </span>
             covered almost 80% of our application needs:Â 
@@ -352,11 +357,6 @@ const Appraise = () => {
             - Evaluator Journey
             <br data-type="br" />- Reviewer Journey
           </span>
-        </div>
-        <div id="cs2-userflow-pic" className="container19">
-          <img src="/playground_assets/userjourney-1-1200h.png" className="thqImage image02" />
-          <img src="/playground_assets/userjourney-2-1200h.png" className="thqImage image03" />
-          <span className="text059">Snippet of the App&apos;s User journeys</span>
         </div>
         <div id="cs2-howitstarted" className="container20">
           <h1 className="thqHeading1 text060">
@@ -540,8 +540,10 @@ const Appraise = () => {
           <h1 className="thqHeading1 h106">Launching the Website</h1>
           <span className="text090">
             The entire project was designed and developed in over a period ofÂ 
-            <span data-type="span">16 months.</span>
-            We worked in Agile with 4 week sprints.
+            <span data-type="span">
+              <span className="text092">16 months.</span>
+            </span>
+            Â We worked in Agile with 4 week sprints.
             <br data-type="br" />
             Once the wireframes for all the flows were finalised, I started on the visual design of
             the application. We already had a brand guideline in place, so I followed the design
@@ -552,20 +554,20 @@ const Appraise = () => {
             Once we developed the MVP, we ran a closed beta test with 100 users. We made minor
             iterations based on the user inputs and submitted the app for security testing.
           </span>
-          <span className="text092">
+          <span className="text093">
             As this is company wide initiative, I worked with HR managers, corporate communications
             to run awareness workshops and marketing campaigns with the associates in making them
             aware of the new system and process.
           </span>
-          <span className="text093">
-            <span className="text094">
+          <span className="text094">
+            <span className="text095">
               We successfully launched the web application on October 31, 2018.
             </span>
           </span>
-          <span className="text095">
+          <span className="text096">
             The response was mostly positive and people loved the app performance and the new
             interface.Â We had ~
-            <span data-type="span" className="text096">
+            <span data-type="span" className="text097">
               100k logins
             </span>
             Â in the first week but as expected the traffic gradually reduced in the weeks after
@@ -574,43 +576,43 @@ const Appraise = () => {
         </div>
         <div id="cs2-moblaunch" className="container27">
           <h1 className="thqHeading1 h107">Launching the Mobile App</h1>
-          <span className="text097">
+          <span className="text098">
             Post the web launch, we took a month break to stabilise the site and work on any changes
             based on feedback.
           </span>
-          <span className="text098">
+          <span className="text099">
             I started working on few user flows for the mobile app during the web design phase
             itself. I created high fidelity mockups based on brand guidelines for all the user
             journeys in the app.
           </span>
-          <span className="text099">
+          <span className="text100">
             <span data-type="span">
-              <span data-type="span" className="text101">
+              <span data-type="span" className="text102">
                 Like web, we worked on sprints and after successfully clearing the usability and
                 security testing,Â 
-                <span data-type="span" className="text102">
+                <span data-type="span" className="text103">
                   we launched the mobile app on April 30, 2019.
                 </span>
               </span>
             </span>
           </span>
-          <span className="text103">
+          <span className="text104">
             The response was mostly positive and people loved the app performance and the new
             interface.Â We had ~
-            <span data-type="span" className="text104">
+            <span data-type="span" className="text105">
               100k logins
             </span>
             Â in the first week but as expected the traffic gradually reduced in the weeks after
             launch.
           </span>
-          <span className="text105">
+          <span className="text106">
             The organisation was planning to revamp few more modules associated with appraisals such
             as promotion, career hub etc. But after working on this project for more than 16 months,
             I desired a break and exited the project.
             <br />I created a transition plan on KT and handed over all the access and relevant
             files to my replacement.
           </span>
-          <span className="text106">
+          <span className="text107">
             Presently, the application team is doing a tremendous job is maintaining the app. They
             are continuously working towards creating a platform to measure quantitative objectives
             automatically there by eliminating bias and also on improving the app with bug fixes,
@@ -619,11 +621,11 @@ const Appraise = () => {
         </div>
         <div id="cs2-learnings" className="container28">
           <h1 className="thqHeading1 h108">Final Thoughts</h1>
-          <span className="text107">
+          <span className="text108">
             This journey of 16 months was a fantastic learning experience filled with excitement,
             fun and at times frustration.. Some of my key takeaways from this project are:
           </span>
-          <span className="text108">
+          <span className="text109">
             - Establish a clear form of communication with the key stakeholders as lot of conflicts
             arise from simple miscommunications.
             <br />
@@ -632,7 +634,7 @@ const Appraise = () => {
             <br />- Take breaks from work as much as possible. Working continuously has serious
             consequences both physically and mentally.
           </span>
-          <span className="text109">
+          <span className="text110">
             I am immensely proud to be part this project that despite all the hurdles, banded
             together in creating this amazing product, that has a positive impact on large number of
             users.
@@ -648,9 +650,9 @@ const Appraise = () => {
         <div id="footer" className="container31">
           <div className="container32">
             <div className="container33">
-              <span className="text111">
+              <span className="text112">
                 Let&apos;s connect. Feel free to drop a
-                <span className="text112">&quot;hello&quot;</span>
+                <span className="text113">&quot;hello&quot;</span>
                 anytime
               </span>
             </div>
@@ -1132,68 +1134,6 @@ const Appraise = () => {
           .text044 {
             font-weight: 700;
           }
-          .div04 {
-            width: 720px;
-            display: flex;
-            margin-top: 16px;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .text045 {
-            width: 100%;
-            font-size: 24px;
-            margin-top: 24px;
-            line-height: 1.4;
-          }
-          .text046 {
-            font-weight: 800;
-          }
-          .text047 {
-            margin-top: 16px;
-          }
-          .text048 {
-            margin-top: 16px;
-          }
-          .text049 {
-            font-weight: 700;
-          }
-          .text050 {
-            font-weight: 700;
-          }
-          .text051 {
-            margin-top: 16px;
-          }
-          .div05 {
-            width: 720px;
-            display: flex;
-            margin-top: 16px;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .text052 {
-            width: 100%;
-            font-size: 24px;
-            margin-top: 24px;
-            line-height: 1.4;
-          }
-          .text053 {
-            font-weight: 800;
-          }
-          .text054 {
-            margin-top: 16px;
-          }
-          .text055 {
-            font-weight: 700;
-          }
-          .text056 {
-            margin-top: 16px;
-          }
-          .text057 {
-            margin-top: 16px;
-          }
-          .text058 {
-            font-weight: 700;
-          }
           .container19 {
             width: 100%;
             display: flex;
@@ -1223,11 +1163,73 @@ const Appraise = () => {
             border-radius: 8px;
             margin-bottom: 8px;
           }
-          .text059 {
+          .text045 {
             font-size: 16px;
             align-self: center;
             margin-top: 24px;
             margin-bottom: 24px;
+          }
+          .div04 {
+            width: 720px;
+            display: flex;
+            margin-top: 16px;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .text046 {
+            width: 100%;
+            font-size: 24px;
+            margin-top: 24px;
+            line-height: 1.4;
+          }
+          .text047 {
+            font-weight: 800;
+          }
+          .text048 {
+            margin-top: 16px;
+          }
+          .text049 {
+            margin-top: 16px;
+          }
+          .text050 {
+            font-weight: 700;
+          }
+          .text051 {
+            font-weight: 700;
+          }
+          .text052 {
+            margin-top: 16px;
+          }
+          .div05 {
+            width: 720px;
+            display: flex;
+            margin-top: 16px;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .text053 {
+            width: 100%;
+            font-size: 24px;
+            margin-top: 24px;
+            line-height: 1.4;
+          }
+          .text054 {
+            font-weight: 800;
+          }
+          .text055 {
+            margin-top: 16px;
+          }
+          .text056 {
+            font-weight: 700;
+          }
+          .text057 {
+            margin-top: 16px;
+          }
+          .text058 {
+            margin-top: 16px;
+          }
+          .text059 {
+            font-weight: 700;
           }
           .container20 {
             width: 720px;
@@ -1482,18 +1484,21 @@ const Appraise = () => {
             margin-top: 16px;
           }
           .text092 {
-            margin-top: 16px;
+            font-weight: bold;
           }
           .text093 {
             margin-top: 16px;
           }
           .text094 {
-            font-weight: 700;
-          }
-          .text095 {
             margin-top: 16px;
           }
+          .text095 {
+            font-weight: 700;
+          }
           .text096 {
+            margin-top: 16px;
+          }
+          .text097 {
             font-weight: bold;
           }
           .container27 {
@@ -1508,32 +1513,32 @@ const Appraise = () => {
             font-size: 24px;
             line-height: 1.4;
           }
-          .text097 {
-            margin-top: 16px;
-          }
           .text098 {
             margin-top: 16px;
           }
           .text099 {
             margin-top: 16px;
-            font-weight: bold;
           }
-          .text101 {
-            font-weight: normal;
+          .text100 {
+            margin-top: 16px;
+            font-weight: bold;
           }
           .text102 {
-            font-weight: bold;
+            font-weight: normal;
           }
           .text103 {
-            margin-top: 16px;
-          }
-          .text104 {
             font-weight: bold;
           }
-          .text105 {
+          .text104 {
             margin-top: 16px;
           }
+          .text105 {
+            font-weight: bold;
+          }
           .text106 {
+            margin-top: 16px;
+          }
+          .text107 {
             margin-top: 16px;
           }
           .container28 {
@@ -1548,13 +1553,13 @@ const Appraise = () => {
             font-size: 24px;
             line-height: 1.4;
           }
-          .text107 {
-            margin-top: 16px;
-          }
           .text108 {
             margin-top: 16px;
           }
           .text109 {
+            margin-top: 16px;
+          }
+          .text110 {
             margin-top: 16px;
             font-weight: bold;
           }
@@ -1608,12 +1613,12 @@ const Appraise = () => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .text111 {
+          .text112 {
             color: #3E4C59;
             font-size: 14px;
             font-weight: 400;
           }
-          .text112 {
+          .text113 {
             color: rgb(9, 103, 210);
             font-weight: 600;
           }
@@ -1835,14 +1840,14 @@ const Appraise = () => {
             .container18 {
               width: 80%;
             }
+            .container19 {
+              width: 100%;
+            }
             .div04 {
               width: 80%;
             }
             .div05 {
               width: 80%;
-            }
-            .container19 {
-              width: 100%;
             }
             .container20 {
               width: 80%;
@@ -1900,7 +1905,7 @@ const Appraise = () => {
             .container33 {
               flex-wrap: wrap;
             }
-            .text111 {
+            .text112 {
               text-align: center;
             }
           }

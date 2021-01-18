@@ -432,16 +432,18 @@ const Home = () => {
             width: 720px;
             display: grid;
             grid-gap: 16px;
+            align-self: center;
             margin-top: 24px;
             align-items: center;
-            justify-items: stretch;
-            justify-content: space-evenly;
+            align-content: center;
+            justify-items: center;
+            justify-content: center;
             grid-template-columns: 1fr 1fr;
           }
           .container03 {
             width: 100%;
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             align-items: center;
             flex-direction: row;
             justify-content: flex-end;
@@ -481,8 +483,10 @@ const Home = () => {
           }
           .container05 {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
+            align-self: stretch;
             align-items: center;
+            justify-self: stretch;
             flex-direction: row;
             justify-content: flex-start;
           }
@@ -493,6 +497,7 @@ const Home = () => {
             width: 32px;
             height: 32px;
             margin: 16px;
+            display: block;
             align-self: center;
           }
           .link04 {
@@ -502,6 +507,7 @@ const Home = () => {
             width: 32px;
             height: 32px;
             margin: 16px;
+            display: block;
             align-self: center;
           }
           .link05 {
@@ -511,6 +517,7 @@ const Home = () => {
             width: 32px;
             height: 32px;
             margin: 16px;
+            display: block;
             align-self: center;
           }
           .container06 {

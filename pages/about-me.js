@@ -51,18 +51,26 @@ const AboutMe = () => {
               <br />
             </span>
           </h1>
+        </div>
+        <div id="intro-pic" className="div2">
           <img
-            src="https://play.teleporthq.io/static/img/default.png"
+            src="/playground_assets/Temppic_portfolio_0.5x-1200h.png"
             className="thqImage image1"
           />
+        </div>
+        <div id="intro-desc" className="container03">
           <span className="text07">Iâm a UX Designer based out of Chennai, India.</span>
           <span className="text08">
-            I currently work at
-            <span className="text09">Tata Consultancy Services (TCS)</span>
-            for the past
-            <span className="text10">9+years</span>
+            I currently work atÂ 
+            <span data-type="span" className="text09">
+              Tata Consultancy Services (TCS)
+            </span>
+            Â for the pastÂ 
+            <span data-type="span" className="text10">
+              9+years
+            </span>
             .
-            <br />
+            <br data-type="br" />
           </span>
           <span className="text11">
             I completed my Electronics and Instrumentation Engineering from RMK Engineering College
@@ -81,8 +89,8 @@ const AboutMe = () => {
             employee experience across enterprise applications.
           </span>
         </div>
-        <div className="container03"></div>
-        <div id="what-i-bring" className="container04">
+        <div className="container04"></div>
+        <div id="what-i-bring" className="container05">
           <h1 className="thqHeading1 h1">
             <span data-type="span">What I Bring</span>
           </h1>
@@ -118,8 +126,8 @@ const AboutMe = () => {
             iterating based on feedback from users, business and my team.
           </span>
         </div>
-        <div className="container05"></div>
-        <div id="current-work" className="container06">
+        <div className="container06"></div>
+        <div id="current-work" className="container07">
           <h1 className="thqHeading1 text24">
             <span className="text25">Current Work</span>
           </h1>
@@ -143,8 +151,8 @@ const AboutMe = () => {
           </span>
           <span className="text31">
             {' '}
-            â¢ Designed digital workplace products including Intranet, Knowledge Management, Employee
-            Onboarding &amp; LOB Applications.
+            â¢ Typical projects include: creating design systems, user-centric MVP, design-driven RFP
+            response &amp; presentations and building internal digital products.
             <br data-type="br" />
           </span>
           <span className="text32">LATEST PROJECT</span>
@@ -166,17 +174,18 @@ const AboutMe = () => {
             Â and lot of ideas ended up as cost-saving initiatives for the company.
           </span>
         </div>
-        <div className="container07"></div>
-        <div id="footer" className="container08">
-          <div className="container09">
+        <div className="container08"></div>
+        <div id="footer" className="container09">
+          <div className="container10">
             <h1 className="thqHeading1 text38">
-              <span data-type="span" className="text39">
-                Let&apos;s connect. Feel free to drop a<span className="text40">hello</span>
-                anytime.Â 
+              <span className="text39">
+                <span className="text40">Let&apos;s connect. Feel free to drop a</span>Â 
               </span>
+              helloÂ 
+              <span className="text41">anytime.</span>Â 
             </h1>
           </div>
-          <div className="container10">
+          <div className="container11">
             <a href="mailto:msgsrive@gmail.com?subject=Hello :)" className="link3">
               <svg viewBox="0 0 1024 1024" className="thqIcon thqLink icon">
                 <title>mail</title>
@@ -344,11 +353,26 @@ const AboutMe = () => {
           .text06 {
             font-weight: 900;
           }
+          .div2 {
+            width: 720px;
+            display: flex;
+            margin-top: 40px;
+            align-items: flex-start;
+            border-radius: 16px;
+            flex-direction: column;
+          }
           .image1 {
             width: 100%;
-            margin-top: 24px;
+            align-self: center;
             object-fit: contain;
             border-radius: 16px;
+          }
+          .container03 {
+            width: 720px;
+            display: flex;
+            margin-top: 32px;
+            align-items: flex-start;
+            flex-direction: column;
           }
           .text07 {
             width: 100%;
@@ -383,7 +407,7 @@ const AboutMe = () => {
           .text13 {
             margin-top: 16px;
           }
-          .container03 {
+          .container04 {
             width: 720px;
             height: 1px;
             display: flex;
@@ -394,7 +418,7 @@ const AboutMe = () => {
             justify-content: flex-start;
             background-color: #E4E7EB;
           }
-          .container04 {
+          .container05 {
             width: 720px;
             display: flex;
             margin-top: 40px;
@@ -447,7 +471,7 @@ const AboutMe = () => {
           .text23 {
             margin-top: 12px;
           }
-          .container05 {
+          .container06 {
             width: 720px;
             height: 1px;
             display: flex;
@@ -458,7 +482,7 @@ const AboutMe = () => {
             justify-content: flex-start;
             background-color: #E4E7EB;
           }
-          .container06 {
+          .container07 {
             width: 720px;
             display: flex;
             margin-top: 40px;
@@ -513,7 +537,7 @@ const AboutMe = () => {
           .text37 {
             font-weight: bold;
           }
-          .container07 {
+          .container08 {
             width: 720px;
             height: 1px;
             display: flex;
@@ -524,21 +548,21 @@ const AboutMe = () => {
             justify-content: flex-start;
             background-color: #E4E7EB;
           }
-          .container08 {
+          .container09 {
             width: 720px;
             display: flex;
             overflow: auto;
             margin-top: 40px;
             align-items: center;
             border-color: #E4E7EB;
-            margin-bottom: 40px;
+            margin-bottom: 24px;
             flex-direction: column;
             justify-content: center;
           }
-          .container09 {
+          .container10 {
             width: 100%;
             display: flex;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
@@ -548,12 +572,15 @@ const AboutMe = () => {
             line-height: 1.4;
           }
           .text39 {
-            font-weight: 800;
+            color: rgb(62, 76, 89);
           }
           .text40 {
-            color: rgb(9, 154, 164);
+            color: rgb(50, 63, 75);
           }
-          .container10 {
+          .text41 {
+            color: rgb(50, 63, 75);
+          }
+          .container11 {
             width: 100%;
             display: flex;
             flex-wrap: nowrap;
@@ -567,7 +594,7 @@ const AboutMe = () => {
             display: contents;
           }
           .icon {
-            fill: #1F2933;
+            fill: #323F4B;
             width: 28px;
             height: 28px;
             margin-top: 16px;
@@ -578,7 +605,7 @@ const AboutMe = () => {
             display: contents;
           }
           .icon1 {
-            fill: #1F2933;
+            fill: #323F4B;
             width: 28px;
             height: 28px;
             margin: 16px;
@@ -587,7 +614,7 @@ const AboutMe = () => {
             display: contents;
           }
           .icon2 {
-            fill: #1F2933;
+            fill: #323F4B;
             width: 28px;
             height: 28px;
             margin: 16px;
@@ -596,7 +623,7 @@ const AboutMe = () => {
             display: contents;
           }
           .icon3 {
-            fill: #1F2933;
+            fill: #323F4B;
             width: 28px;
             height: 28px;
             margin: 16px;
@@ -605,7 +632,7 @@ const AboutMe = () => {
             display: contents;
           }
           .icon4 {
-            fill: #1F2933;
+            fill: #323F4B;
             width: 28px;
             height: 28px;
             margin: 16px;
@@ -617,7 +644,26 @@ const AboutMe = () => {
             .container02 {
               width: 70%;
             }
+            .container03 {
+              width: 70%;
+            }
+            .container04 {
+              width: 80%;
+            }
+            .container05 {
+              width: 70%;
+            }
+            .container06 {
+              width: 80%;
+            }
+            .container07 {
+              width: 70%;
+            }
             .container08 {
+              width: 80%;
+            }
+            .container09 {
+              width: 70%;
               height: 80px;
             }
           }
@@ -646,6 +692,9 @@ const AboutMe = () => {
             .text05 {
               text-align: left;
             }
+            .container03 {
+              width: 80%;
+            }
             .text07 {
               text-align: left;
             }
@@ -658,8 +707,64 @@ const AboutMe = () => {
             .text12 {
               text-align: left;
             }
+            .container05 {
+              width: 80%;
+            }
+            .container06 {
+              width: 90%;
+            }
+            .container07 {
+              width: 80%;
+            }
             .container08 {
-              height: 120px;
+              width: 90%;
+            }
+            .container09 {
+              width: 90%;
+              height: 200px;
+              flex-wrap: nowrap;
+              margin-top: 0;
+            }
+            .container10 {
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: column;
+              justify-content: flex-start;
+            }
+            .text38 {
+              font-size: 20px;
+              font-family: Inter;
+            }
+            .container11 {
+              display: block;
+              flex-wrap: wrap;
+              margin-top: 8px;
+              flex-direction: column;
+            }
+            .icon {
+              width: 24px;
+              height: 24px;
+              display: inline-block;
+            }
+            .icon1 {
+              width: 24px;
+              height: 24px;
+              display: inline-block;
+            }
+            .icon2 {
+              width: 24px;
+              height: 24px;
+              display: inline-block;
+            }
+            .icon3 {
+              width: 24px;
+              height: 24px;
+              display: inline-block;
+            }
+            .icon4 {
+              width: 24px;
+              height: 24px;
+              display: inline-block;
             }
           }
         `}
