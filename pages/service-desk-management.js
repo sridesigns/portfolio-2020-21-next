@@ -489,8 +489,10 @@ const ServiceDeskManagement = () => {
           <div className="container41">
             <div className="container42">
               <span className="text76">
-                Let&apos;s connect. Feel free to drop a
-                <span className="text77">&quot;hello&quot;</span>
+                Let&apos;s connect. Feel free to drop aÂ 
+                <span data-type="span" className="text77">
+                  &quot;hello&quot;
+                </span>
                 anytime
               </span>
             </div>

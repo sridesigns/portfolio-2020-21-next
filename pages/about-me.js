@@ -131,44 +131,43 @@ const AboutMe = () => {
           <h1 className="thqHeading1 text24">
             <span className="text25">Current Work</span>
           </h1>
-          <span className="text26">
+          <span className="span1">
             â¢ FacilitateÂ 
-            <span className="text27">remote &amp;</span>Â 
-            <span className="text28">in-person design sprintsÂ </span>
+            <span className="text26">remote &amp;</span>Â 
+            <span className="text27">in-person design sprintsÂ </span>
             with global clients to reimagine their employee workspace.
             <br />
           </span>
-          <span className="text29">
+          <span className="text28">
             â¢ I usually conduct 3-week design sprints that includes stakeholder discussions, user
             research, data synthesis, ideation, prototyping and user testing.
             <br data-type="br" />
           </span>
+          <span className="text29">
+            {' '}
+            â¢ Typical projects include: creating design systems, user-centric MVP, design-driven RFP
+            response &amp; presentations and building internal digital products.
+            <br data-type="br" />
+          </span>
           <span className="text30">
-            {' '}
-            â¢ Typical projects include: creating design systems, user-centric MVP, design-driven RFP
-            response &amp; presentations and building internal digital products.
+            â¢ Designed digital workplace products including Intranet, Knowledge Management, Employee
+            Onboarding &amp; LOB Applications
             <br data-type="br" />
           </span>
-          <span className="text31">
-            {' '}
-            â¢ Typical projects include: creating design systems, user-centric MVP, design-driven RFP
-            response &amp; presentations and building internal digital products.
-            <br data-type="br" />
-          </span>
-          <span className="text32">LATEST PROJECT</span>
-          <span className="text33">
+          <span className="text31">LATEST PROJECT</span>
+          <span className="text32">
             {' '}
             â¢ Lead UX design for an ANZ Rail Company to redesign and improve theirÂ 
-            <span className="text34">Ideation Platform.</span>
+            <span className="text33">Ideation Platform.</span>
             <br data-type="br" />
           </span>
-          <span className="text35">
+          <span className="text34">
             â¢ The entire project was conceptualised, designed and successfully delivered via Remote.
           </span>
-          <span className="text36">
+          <span className="text35">
             â¢ I collaborated with a cross-functional team in designing andÂ  developing a user
             centered MVP. Adoption of the platform improved byÂ 
-            <span data-type="span" className="text37">
+            <span data-type="span" className="text36">
               200%
             </span>
             Â and lot of ideas ended up as cost-saving initiatives for the company.
@@ -177,12 +176,12 @@ const AboutMe = () => {
         <div className="container08"></div>
         <div id="footer" className="container09">
           <div className="container10">
-            <h1 className="thqHeading1 text38">
-              <span className="text39">
-                <span className="text40">Let&apos;s connect. Feel free to drop a</span>Â 
+            <h1 className="thqHeading1 text37">
+              <span className="text38">
+                <span className="text39">Let&apos;s connect. Feel free to drop a</span>Â 
               </span>
               helloÂ 
-              <span className="text41">anytime.</span>Â 
+              <span className="text40">anytime.</span>Â 
             </h1>
           </div>
           <div className="container11">
@@ -496,14 +495,17 @@ const AboutMe = () => {
           .text25 {
             font-weight: 800;
           }
-          .text26 {
+          .span1 {
             margin-top: 16px;
+          }
+          .text26 {
+            font-weight: bold;
           }
           .text27 {
             font-weight: bold;
           }
           .text28 {
-            font-weight: bold;
+            margin-top: 12px;
           }
           .text29 {
             margin-top: 12px;
@@ -512,9 +514,6 @@ const AboutMe = () => {
             margin-top: 12px;
           }
           .text31 {
-            margin-top: 12px;
-          }
-          .text32 {
             color: #52606D;
             font-size: 16px;
             margin-top: 32px;
@@ -522,19 +521,19 @@ const AboutMe = () => {
             letter-spacing: 2px;
             text-transform: uppercase;
           }
-          .text33 {
+          .text32 {
             margin-top: 12px;
           }
-          .text34 {
+          .text33 {
             font-weight: bold;
+          }
+          .text34 {
+            margin-top: 12px;
           }
           .text35 {
             margin-top: 12px;
           }
           .text36 {
-            margin-top: 12px;
-          }
-          .text37 {
             font-weight: bold;
           }
           .container08 {
@@ -555,7 +554,7 @@ const AboutMe = () => {
             margin-top: 40px;
             align-items: center;
             border-color: #E4E7EB;
-            margin-bottom: 24px;
+            margin-bottom: 40px;
             flex-direction: column;
             justify-content: center;
           }
@@ -567,17 +566,17 @@ const AboutMe = () => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .text38 {
+          .text37 {
             font-size: 24px;
             line-height: 1.4;
           }
-          .text39 {
+          .text38 {
             color: rgb(62, 76, 89);
           }
-          .text40 {
+          .text39 {
             color: rgb(50, 63, 75);
           }
-          .text41 {
+          .text40 {
             color: rgb(50, 63, 75);
           }
           .container11 {
@@ -731,7 +730,7 @@ const AboutMe = () => {
               flex-direction: column;
               justify-content: flex-start;
             }
-            .text38 {
+            .text37 {
               font-size: 20px;
               font-family: Inter;
             }

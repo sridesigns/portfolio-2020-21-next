@@ -109,8 +109,10 @@ const Playground = () => {
           <div className="container10">
             <div className="container11">
               <span className="text12">
-                Let&apos;s connect. Feel free to drop a
-                <span className="text13">&quot;hello&quot;</span>
+                Let&apos;s connect. Feel free to drop aÂ 
+                <span data-type="span" className="text13">
+                  &quot;hello&quot;Â  Â 
+                </span>
                 anytime
               </span>
             </div>

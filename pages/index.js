@@ -140,15 +140,19 @@ const Home = () => {
             </Link>
           </div>
           <div className="container10">
-            <h1 className="thqHeading1 text13">
-              <span className="text14">The Learning Hub</span>
-            </h1>
+            <Link href="/learning-hub">
+              <a className="link07">
+                <h1 className="thqHeading1 thqLink text13">
+                  <span className="text14">The Learning Hub</span>
+                </h1>
+              </a>
+            </Link>
             <span className="text15">
               Design overhaul of a legacy website into a hybrid mobile app that provides a platform
               for students to collaborate, learn and manage all college-related activities.
             </span>
             <Link href="/learning-hub">
-              <a className="link07">
+              <a className="link08">
                 <div className="thqLink container11">
                   <span className="text16">
                     <span className="text17">Read Case Study</span>
@@ -164,8 +168,8 @@ const Home = () => {
         </div>
         <div id="casestudy-2" className="container12">
           <div className="container13">
-            <Link href="/learning-hub">
-              <a className="link08">
+            <Link href="/appraise">
+              <a className="link09">
                 <img
                   src="/playground_assets/cs3_display-pic-ie47-1200h.png"
                   className="thqImage thqLink image2"
@@ -174,15 +178,19 @@ const Home = () => {
             </Link>
           </div>
           <div className="container14">
-            <h1 className="thqHeading1 text18">
-              <span data-type="span">Appraise - The Performance Management App</span>
-            </h1>
+            <Link href="/appraise">
+              <a className="link10">
+                <h1 className="thqHeading1 thqLink text18">
+                  <span data-type="span">Appraise - The Performance Management App</span>
+                </h1>
+              </a>
+            </Link>
             <span className="text20">
               Led Design and Research for my organisation of 300k+ users to overhaul the existing
               appraisal process and application.
             </span>
             <Link href="/appraise">
-              <a className="link09">
+              <a className="link11">
                 <div className="thqLink container15">
                   <span className="text21">
                     <span className="text22">Read Case Study</span>
@@ -199,7 +207,7 @@ const Home = () => {
         <div id="casestudy-3" className="container16">
           <div className="container17">
             <Link href="/service-desk-management">
-              <a className="link10">
+              <a className="link12">
                 <img
                   src="/playground_assets/cs2_display-pic-1200h.png"
                   className="thqImage thqLink image3"
@@ -208,17 +216,21 @@ const Home = () => {
             </Link>
           </div>
           <div className="container18">
-            <h1 className="thqHeading1 text23">
-              <span data-type="span" className="text24">
-                IT Service Desk Management
-              </span>
-            </h1>
+            <Link href="/service-desk-management">
+              <a className="link13">
+                <h1 className="thqHeading1 thqLink text23">
+                  <span data-type="span" className="text24">
+                    IT Service Desk Management
+                  </span>
+                </h1>
+              </a>
+            </Link>
             <span className="text25">
               Collaborated with a startup to designÂ a web application that helps toÂ manage the
               service desk needs for small and medium enterprises.
             </span>
             <Link href="/service-desk-management">
-              <a className="link11">
+              <a className="link14">
                 <div className="thqLink container19">
                   <span className="text26">
                     <span className="text27">Read Case Study</span>
@@ -236,13 +248,15 @@ const Home = () => {
           <div className="div2">
             <div className="container21">
               <span className="text28">
-                Let&apos;s connect. Feel free to drop a
-                <span className="text29">&quot;hello&quot;</span>
+                Let&apos;s connect. Feel free to drop aÂ 
+                <span data-type="span" className="text29">
+                  &quot;hello&quot;Â 
+                </span>
                 anytime
               </span>
             </div>
             <div className="container22">
-              <a href="mailto:msgsrive@gmail.com?subject=Hello :)" className="link12">
+              <a href="mailto:msgsrive@gmail.com?subject=Hello :)" className="link15">
                 <svg viewBox="0 0 1024 1024" className="thqIcon thqLink icon07">
                   <title>mail</title>
                   <path d="M128 337.963l359.552 251.691c14.507 10.027 33.92 10.496 48.939 0l359.509-251.691v430.037c0 11.605-4.693 22.229-12.587 30.080s-18.475 12.587-30.080 12.587h-682.667c-11.605 0-22.229-4.693-30.080-12.587s-12.587-18.475-12.587-30.080zM42.667 256.512v511.488c0 35.328 14.507 67.371 37.547 90.453s55.125 37.547 90.453 37.547h682.667c35.328 0 67.371-14.507 90.453-37.547s37.547-55.125 37.547-90.453v-511.488c0-0.427 0-0.853 0-1.28-0.213-35.029-14.635-66.773-37.547-89.685-23.083-23.040-55.125-37.547-90.453-37.547h-682.667c-35.328 0-67.371 14.507-90.453 37.547-22.912 22.912-37.333 54.656-37.547 89.728 0 0.213 0 0.469 0 0.725zM891.477 236.971l-379.477 265.6-379.477-265.6c2.048-4.096 4.779-7.808 8.021-11.051 7.893-7.893 18.517-12.587 30.123-12.587h682.667c11.605 0 22.229 4.693 30.080 12.587 3.243 3.243 5.973 6.997 8.021 11.051z"></path>
@@ -252,7 +266,7 @@ const Home = () => {
                 href="https://twitter.com/designersriram"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="link13"
+                className="link16"
               >
                 <svg viewBox="0 0 950.8571428571428 1024" className="thqIcon thqLink icon08">
                   <title>twitter</title>
@@ -263,7 +277,7 @@ const Home = () => {
                 href="https://www.instagram.com/sriram015/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="link14"
+                className="link17"
               >
                 <svg viewBox="0 0 877.7142857142857 1024" className="thqIcon thqLink icon09">
                   <title>instagram</title>
@@ -274,7 +288,7 @@ const Home = () => {
                 href="https://www.linkedin.com/in/sriramvenugopal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="link15"
+                className="link18"
               >
                 <svg viewBox="0 0 877.7142857142857 1024" className="thqIcon thqLink icon10">
                   <title>linkedin</title>
@@ -285,7 +299,7 @@ const Home = () => {
                 href="https://dribbble.com/SriramVenugopal"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="link16"
+                className="link19"
               >
                 <svg viewBox="0 0 877.7142857142857 1024" className="thqIcon thqLink icon11">
                   <title>dribbble</title>
@@ -579,6 +593,9 @@ const Home = () => {
             margin-left: 24px;
             flex-direction: column;
           }
+          .link07 {
+            display: contents;
+          }
           .text13 {
             font-size: 24px;
           }
@@ -592,7 +609,7 @@ const Home = () => {
             font-size: 16px;
             margin-top: 8px;
           }
-          .link07 {
+          .link08 {
             display: contents;
           }
           .container11 {
@@ -643,7 +660,7 @@ const Home = () => {
             border-radius: 8px;
             flex-direction: column;
           }
-          .link08 {
+          .link09 {
             display: contents;
           }
           .image2 {
@@ -660,6 +677,9 @@ const Home = () => {
             margin-left: 24px;
             flex-direction: column;
           }
+          .link10 {
+            display: contents;
+          }
           .text18 {
             font-size: 24px;
           }
@@ -670,7 +690,7 @@ const Home = () => {
             font-size: 16px;
             margin-top: 8px;
           }
-          .link09 {
+          .link11 {
             display: contents;
           }
           .container15 {
@@ -721,7 +741,7 @@ const Home = () => {
             border-radius: 8px;
             flex-direction: column;
           }
-          .link10 {
+          .link12 {
             display: contents;
           }
           .image3 {
@@ -738,6 +758,9 @@ const Home = () => {
             margin-left: 24px;
             flex-direction: column;
           }
+          .link13 {
+            display: contents;
+          }
           .text23 {
             font-size: 24px;
           }
@@ -751,7 +774,7 @@ const Home = () => {
             font-size: 16px;
             margin-top: 8px;
           }
-          .link11 {
+          .link14 {
             display: contents;
           }
           .container19 {
@@ -833,7 +856,7 @@ const Home = () => {
             flex-direction: row;
             justify-content: flex-end;
           }
-          .link12 {
+          .link15 {
             display: contents;
           }
           .icon07 {
@@ -842,7 +865,7 @@ const Home = () => {
             height: 20px;
             margin: 16px;
           }
-          .link13 {
+          .link16 {
             display: contents;
           }
           .icon08 {
@@ -851,7 +874,7 @@ const Home = () => {
             height: 20px;
             margin: 16px;
           }
-          .link14 {
+          .link17 {
             display: contents;
           }
           .icon09 {
@@ -860,7 +883,7 @@ const Home = () => {
             height: 20px;
             margin: 16px;
           }
-          .link15 {
+          .link18 {
             display: contents;
           }
           .icon10 {
@@ -869,7 +892,7 @@ const Home = () => {
             height: 20px;
             margin: 16px;
           }
-          .link16 {
+          .link19 {
             display: contents;
           }
           .icon11 {
